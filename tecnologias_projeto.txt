@@ -44,3 +44,5 @@ App de Gestão de Tarefas com Notificações - Tecnologias e Funções
 11. Firebase Authentication
    - Função: Serviço de autenticação e gerenciamento de usuários.
    - Utilização: Fornece autenticação para usuários no app, facilitando o login e gerenciamento de sessão.
+
+12. Axios para fazer as requisições HTTP.
