@@ -1,0 +1,46 @@
+
+App de Gestão de Tarefas com Notificações - Tecnologias e Funções
+
+1. Node.js
+   - Função: Plataforma de execução para o JavaScript no servidor, permitindo criar o back-end e APIs de forma eficiente.
+   - Utilização: Base do servidor back-end para lidar com requisições HTTP e executar a lógica do negócio.
+
+2. Express.js
+   - Função: Framework para Node.js, facilitando a criação de APIs REST e manipulando rotas.
+   - Utilização: Serve como o backbone do servidor back-end, gerenciando rotas e respostas para requisições de tarefas.
+
+3. Mongoose
+   - Função: Biblioteca de modelagem de dados para MongoDB e Node.js, oferecendo uma estrutura para organizar o banco de dados.
+   - Utilização: Facilita a criação de esquemas e modelos de dados, como o de tarefas, no MongoDB.
+
+4. MongoDB
+   - Função: Banco de dados NoSQL, ideal para armazenar dados não estruturados e semi-estruturados.
+   - Utilização: Guarda os dados das tarefas, categorias, usuários, etc., oferecendo flexibilidade para o modelo de dados.
+
+5. Dotenv
+   - Função: Carrega variáveis de ambiente de um arquivo .env para proteger dados sensíveis.
+   - Utilização: Garante segurança ao armazenar informações como strings de conexão com o banco de dados e tokens.
+
+6. Cors
+   - Função: Middleware para habilitar CORS (Cross-Origin Resource Sharing).
+   - Utilização: Permite que o front-end acesse recursos do back-end de diferentes domínios, necessário para a comunicação entre o Vue.js e o servidor Express.
+
+7. Nodemon
+   - Função: Utilitário que reinicia automaticamente o servidor Node.js ao detectar mudanças no código.
+   - Utilização: Facilita o desenvolvimento, recarregando o servidor a cada atualização sem necessidade de reiniciar manualmente.
+
+8. Vite
+   - Função: Ferramenta de desenvolvimento de front-end que compila e constrói projetos rapidamente.
+   - Utilização: Configura rapidamente o ambiente Vue.js para o desenvolvimento do front-end com performance otimizada.
+
+9. Vue.js
+   - Função: Framework JavaScript progressivo para construir interfaces de usuário.
+   - Utilização: Utilizado no front-end para construir a interface interativa de gerenciamento de tarefas.
+
+10. Firebase Cloud Messaging (FCM)
+   - Função: Serviço para envio de notificações push a dispositivos móveis e navegadores.
+   - Utilização: Gerencia as notificações push para alertar os usuários sobre tarefas pendentes e próximas do prazo.
+
+11. Firebase Authentication
+   - Função: Serviço de autenticação e gerenciamento de usuários.
+   - Utilização: Fornece autenticação para usuários no app, facilitando o login e gerenciamento de sessão.
